@@ -1,0 +1,45 @@
+/*
+ * Defaults
+ *
+ */
+body {
+    padding: 40px;
+}
+
+#Buttons {
+    margin-bottom: 20px;
+}
+
+#Container {
+    border: 4px dashed silver;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    width: 530px;
+    height: 530px;
+}
+
+.child {
+    display: block;
+    float: left;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+}
+
+/*
+ * Colors
+ *
+ */
+.red { background-color: red; }
+.blue { background-color: blue; }
+.silver { background-color: silver; }
+.aqua { background-color: aqua; }
+.brown { background-color: brown; }
+.black { background-color: black; }
+.olive { background-color: olive; }
+.navy { background-color: navy; }
+.orange { background-color: orange; }
+
