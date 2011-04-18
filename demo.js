@@ -1,9 +1,7 @@
 $(function(){
 
-    $('#Container').resizable();
+    $.widget.bridge('resizable', $.lsd.animateChildrenOnResize);
 
-    $('#PlaceOnLeftButton').bind('click', function() {
-        
-    })
+    $('#Container').resizable();
 
 });

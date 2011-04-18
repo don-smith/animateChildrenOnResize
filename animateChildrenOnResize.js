@@ -1,11 +1,5 @@
 (function($){
 
-    $.widget('lsd.animateChildrenOnResize', $.ui.resizable, {
-    
-        _create: function() {
-                 
-        }
+    $.widget('lsd.animateChildrenOnResize', $.ui.resizable.prototype, {});
 
-    });
-
-});
+}(jQuery));

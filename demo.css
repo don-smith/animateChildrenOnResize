@@ -11,21 +11,21 @@ body {
 }
 
 #Container {
-    border: 4px dashed silver;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    position: relative;
     width: 530px;
     height: 530px;
+    position: relative;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 4px dashed silver;
 }
 
 .child {
-    display: block;
     float: left;
-    margin-left: 20px;
-    margin-bottom: 20px;
     width: 150px;
     height: 150px;
+    display: block;
+    margin-left: 20px;
+    margin-bottom: 20px;
     border: 1px solid black;
 }
 
